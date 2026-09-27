@@ -48,54 +48,30 @@ ROS2, 비전 인식, 시뮬레이션까지 하나의 로봇 매니퓰레이터 �
 
 ## BOM 및 제작 비용
 
-원작자의 **AmazingHand Enhanced BOM**과 실제 주문 내역을 비교하여 정리했습니다.  
-가격은 배송비와 할인까지 포함한 **실제 원화 결제 금액** 기준입니다.
+실제 구매한 부품과 결제 금액을 기준으로 정리했습니다.  
+구매처는 모두 **AliExpress**이며, 가격은 배송비와 할인까지 포함한 **실제 원화 결제 금액**입니다.
 
-| 부품 | 원작 요구 규격 / 필요 수량 | 실제 구매 | 구매처 | 실제 결제 금액 | 확인 / 비고 |
-|---|---|---|---|---:|---|
-| Servo Motor | Feetech STS3032 ×8 | STS3032 총 9개 (1개 + 4개×2세트) | AliExpress | ₩332,800 | ✅ 규격 일치. 1개는 예비 |
-| Ball Joint | M2 Ball Joint ×16 | M2×L19, 10개 세트 ×3 | AliExpress | ₩18,974 | ✅ 사용 가능. 필요 수량보다 여유 있음 |
-| Threaded Rod | M2, L300 mm ×1 | M2×300 mm, 6개 세트 | AliExpress | ₩11,884 | ✅ 규격 일치. 절단하여 사용 |
-| Bushing | ID 6 mm / OD 8 mm, GFM 0608-04 ×8 | GFM-0608-04 ×1세트 | AliExpress | ₩19,650 | ⚠️ 모델은 정확히 일치. 주문 세트에 8개 이상 포함되는지 최종 확인 필요 |
-| Axis | D2×10 ×8 | M2 HRC62 Dowel Pin 10 mm, 100개 | AliExpress | 포함 주문 ₩8,700 | ✅ 규격 일치. 수량 충분 |
-| Axis | D2×16 ×8 | M2 HRC62 Dowel Pin 16 mm, 100개 | AliExpress | 포함 주문 ₩8,700 | ✅ 규격 일치. 수량 충분 |
-| Thermoplastic Screw | M2.5×6 ×16 | M2.5×6, 50개 | AliExpress | 포함 주문 ₩3,374 | ✅ 규격 및 수량 충분 |
-| Thermoplastic Screw | M2.5×8 ×30 | M2.5×8, 50개 | AliExpress | 포함 주문 ₩3,374 | ✅ 규격 및 수량 충분 |
-| Large Washer | M2.5, OD 8 mm ×4 | DIN 9021 M2.5 대형 와셔 | AliExpress | ₩1,946 | ✅ 규격 일치 |
-| Serial Bus Driver | Waveshare Serial Bus Servo Driver ×1 | Waveshare Bus Servo Adapter (A) ×1 | AliExpress | ₩11,624 | ✅ 원작 BOM의 제어 방식과 일치 |
-| Servo Interface | 필수 아님 / 추가 제어 인터페이스 | Feetech FE-URT2 ×2 | AliExpress | ₩36,747 | ℹ️ 추가 구매. 원작 Enhanced BOM의 필수품은 아님 |
-| Flexible Filament | Filaflex 82A 또는 eSUN TPE 83A | eSUN TPE 83A White 1 kg | AliExpress | ₩50,900 | ✅ 원작 권장 재료와 정확히 일치 |
-| External Power Supply | 6 V 외부 전원 | 12 V 40 A SMPS | AliExpress | ₩26,445 | ❌ 손에 직접 사용 불가. AmazingHand용 6 V 전원이 별도로 필요 |
-| PLA Filament | PLA | 보유 / 추후 기록 | - | - | 출력 후 실제 사용 재료 기록 예정 |
+| 부품 | 모델 / 규격 | 수량 | 구매처 | 실제 결제 금액 | 비고 |
+|---|---|---:|---|---:|---|
+| Servo Motor | Feetech STS3032 | 9 | AliExpress | ₩332,800 | 사용 8개 + 예비 1개 |
+| Ball Joint | M2 × L19 | 30 | AliExpress | ₩18,974 |  |
+| Threaded Rod | M2 × 300 mm | 6 | AliExpress | ₩11,884 |  |
+| Bushing | GFM-0608-04 | 8개 이상 | AliExpress | ₩19,650 |  |
+| Axis | D2×10 / D2×16 | 각 100 | AliExpress | ₩8,700 | 동일 주문 |
+| Thermoplastic Screw | M2.5×6 / M2.5×8 | 각 50 | AliExpress | ₩3,374 | 동일 주문 |
+| Large Washer | DIN 9021 M2.5 | 1세트 | AliExpress | ₩1,946 |  |
+| Serial Bus Driver | Waveshare Bus Servo Adapter (A) | 1 | AliExpress | ₩11,624 |  |
+| Servo Interface | Feetech FE-URT2 | 2 | AliExpress | ₩36,747 |  |
+| Flexible Filament | eSUN TPE 83A White 1 kg | 1 | AliExpress | ₩50,900 |  |
+| Power Supply | 12V 40A SMPS | 1 | AliExpress | ₩26,445 | 추후 6V 변환 사용 예정 |
+| PLA Filament | PLA | 보유 / 추후 기록 | - | - |  |
 
-> **주의:** D2×10 / D2×16 축은 같은 주문에서 함께 구매하여 결제 금액 ₩8,700으로 표시했습니다.  
-> M2.5×6 / M2.5×8 나사도 같은 주문에서 함께 구매하여 결제 금액 ₩3,374로 표시했습니다.
+### 현재 구매 비용
 
-### 구매 검토
+**현재까지 확인된 AmazingHand 관련 구매 총액: ₩523,044**
 
-AmazingHand Enhanced 제작에 필요한 핵심 기계 부품은 대부분 원작 BOM과 맞게 구매했습니다.
+※ PLA 및 추후 추가 구매 부품은 포함하지 않았습니다.
 
-특히 **STS3032, M2 Ball Joint, M2 Threaded Rod, GFM-0608-04, D2×10 / D2×16 축, M2.5 열가소성용 나사, M2.5 대형 와셔, eSUN TPE 83A**는 원작에서 제시한 규격과 일치합니다.
-
-다만 아래 항목은 별도로 확인하거나 추가 구매가 필요합니다.
-
-- **GFM-0608-04:** 제품 모델은 정확하지만, 주문한 1세트에 실제로 8개 이상 포함되는지 확인 필요
-- **전원 공급 장치:** 구매한 12 V 40 A SMPS는 AmazingHand STS3032에 직접 연결하면 안 됨. 손에는 별도의 **6 V 전원** 필요
-- **FE-URT2:** 추가 제어용으로 구매한 부품이며, 원작 Enhanced BOM의 필수 부품은 아님
-
-### AmazingHand 관련 실제 구매 비용
-
-현재 주문 내역 중 AmazingHand 제작에 직접 관련된 항목의 결제 금액은 다음과 같습니다.
-
-- 기계 부품 및 서보: **₩393,954**
-- TPE 83A: **₩50,900**
-- 제어 보드 (Waveshare + FE-URT2): **₩48,371**
-- 열가소성용 나사: **₩3,374**
-
-**현재 확인된 관련 구매 총액: 약 ₩496,599**
-
-※ 위 총액에는 PLA, AmazingHand용 6 V 전원, 추후 추가 구매 부품은 포함하지 않았습니다.  
-※ STS3032는 필요한 8개보다 1개 많은 총 9개를 구매했으며, 총액은 실제 주문 금액 전체를 반영했습니다.
 ---
 
 ## 3D 프린팅 및 제작 과정
