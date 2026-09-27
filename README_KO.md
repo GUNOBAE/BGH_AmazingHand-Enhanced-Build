@@ -76,28 +76,50 @@ ROS2, 비전 인식, 시뮬레이션까지 하나의 로봇 매니퓰레이터 �
 
 ## 3D 프린팅 및 제작 과정
 
-AmazingHand의 대부분의 기구부는 3D 프린팅으로 제작합니다.
+AmazingHand Enhanced의 기구부는 PLA와 Flexible Material을 사용하여 출력합니다.
 
-### 사용 재료
+### 출력 부품 및 재료
+
+| 부품 | 재료 | 필요 수량 | 비고 |
+|---|---|---:|---|
+| Finger Frame | PLA | 4 | 강도 중요 |
+| Servo Horn | PLA | 8 | 손가락당 2개, 강도 중요 |
+| Proximal | PLA | 4 |  |
+| Distal | PLA | 4 |  |
+| Gimbal | PLA | 4 | 강도 중요 |
+| Link | PLA | 4 |  |
+| Length Tooling | PLA | 1 | Ball Joint Rod 길이 조정용 지그 |
+| Hand Plate | PLA | 1 |  |
+| Wrist Interface | PLA | 1 |  |
+| Proximal Shell | eSUN TPE 83A | 4 | Flexible part |
+| Distal Shell | eSUN TPE 83A | 4 | Flexible part |
+| Palm / Soft Shell | eSUN TPE 83A | 1 | Flexible part |
+| Top Shell | eSUN TPE 83A | 1 | Flexible part |
+
+> 원본 3D printed parts 표에는 Servo Horn 수량이 2개로 표기되어 있지만,  
+> 조립 가이드에서는 손가락 1개당 Servo Horn 2개가 필요하며 손가락이 총 4개이므로  
+> 실제 제작 수량은 **8개**로 정리했습니다.
+
+### 재료별 출력 목록
 
 **PLA**
 
-- Finger Frame
-- Servo Horn
-- Proximal
-- Distal
-- Gimbal
-- Link
-- Hand Plate
-- Wrist Interface
+- Finger Frame ×4
+- Servo Horn ×8
+- Proximal ×4
+- Distal ×4
+- Gimbal ×4
+- Link ×4
+- Length Tooling ×1
+- Hand Plate ×1
+- Wrist Interface ×1
 
-**Flexible Material**
+**eSUN TPE 83A**
 
-- eSUN TPE 83A
-- Proximal Shell
-- Distal Shell
-- Palm Shell
-- Top Shell
+- Proximal Shell ×4
+- Distal Shell ×4
+- Palm / Soft Shell ×1
+- Top Shell ×1
 
 ### 출력 설정
 
